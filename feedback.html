@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./feedback.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="./feedback.js"></script>
+    <title>Feedback</title>
+</head>
+<body>
+    
+    <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item logo" href="./games.html">
+              <span class="logo-text">Torrent</span>
+            </a>
+            
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+          
+          <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-start">
+              
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link nav-link">
+                  Games
+                </a>
+                
+                <div class="navbar-dropdown is-boxed animated-dropdown">
+                  <a class="navbar-item dropdown-item" href="./games.html">
+                    All Games
+                  </a>
+                </div>
+              </div>
+              
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link nav-link">
+                  Services
+                </a>
+                
+                <div class="navbar-dropdown is-boxed animated-dropdown">
+                  <a class="navbar-item dropdown-item" href="./profile.html">
+                    Profile
+                  </a>
+                  <a class="navbar-item dropdown-item" href="./feedback.html">
+                    Feedback
+                  </a>
+                </div>
+              </div>
+              
+              <a class="navbar-item nav-link" href="./about.html">
+                About
+              </a>
+            </div>
+            
+            <div class="navbar-end">
+              <div class="navbar-item">
+                  <div class="buttons">
+                          <a class="button is-primary animated-button">
+                              <strong>Sign up</strong>
+                          </a>
+                          <a class="button is-light animated-button">
+                              Log in
+                          </a>
+                  </div>
+                </div>
+            </div>      
+          </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+    
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="card feedback-card fade-in positive-feedback">
+                         <div class="card-content">
+                            <p class="title is-4">Cool site</p>
+                            <p class="subtitle is-6">Positive</p>
+                         </div>
+                    </div>
+                    <br>
+                    <div class="card feedback-card fade-in negative-feedback">
+                        <div class="card-content">
+                           <p class="title is-4">Without backend</p>
+                           <p class="subtitle is-6">Negarive</p>
+                        </div>
+                   </div>
+                   <br>
+                   <div class="card feedback-card fade-in positive-feedback">
+                        <div class="card-content">
+                            <p class="title is-4">Beautiful site</p>
+                            <p class="subtitle is-6">Positive</p>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
